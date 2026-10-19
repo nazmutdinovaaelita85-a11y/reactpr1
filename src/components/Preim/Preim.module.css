@@ -1,0 +1,38 @@
+.container {
+    max-width: 1300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.preim_block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 412px;
+    align-items: center;
+}
+
+.preim_zag{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.preim_zag h3 {
+    font-family: 'y';
+    font-size: 36px;
+    font-weight: 500;
+    color: #3E2E09;
+}
+
+.preim_block p {
+    font-family: 'y';
+    font-size: 24px;
+    font-weight: 300;
+    color: #3E2E09; 
+    text-align: center;
+}
