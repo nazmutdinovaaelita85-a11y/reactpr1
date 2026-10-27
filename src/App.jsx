@@ -1,24 +1,19 @@
+// компонент всегда пишется с заглавн букв
 
-import { Header } from "./components/Header/Header"
 import { Banner } from "./components/Banner/Banner"
-import { Preim } from "./components/Preim/Preim"
-import { Forma } from "./components/Forma/Forma"
+import { Catalog } from "./components/Catalog/Catalog"
 import { Footer } from "./components/Footer/Footer"
-export function App() {
+import { Header } from "./components/Header/Header"
+import { Routing } from "./Routing/Routing"
 
+export function App() {
   return (
     <div className="layout">
       < Header />
-      <div className="main">
-        <Banner />
-        <Preim />
-        <Forma/>
 
-
-
-      </div>
-      < Footer/>
-
+      <Routing />
+      
+      < Footer />
 
 
     </div>

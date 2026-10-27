@@ -1,5 +1,7 @@
 import s from './Header.module.css'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router'
+import { PATH } from '../../Routing/Routing'
 
 export function Header() {
     return (
@@ -9,9 +11,15 @@ export function Header() {
             </div>
 
             <nav>
-                <a href="#"> Главная</a>
-                <a href="#"> Каталог</a>
-                <a href="#"> Корзина</a>
+                <Link to={PATH.Home} className={s.navLink}>
+                    Главная
+                </Link>
+                <Link to={PATH.Catalog} className={s.navLink}>
+                    Каталог
+                </Link>
+                <Link to={PATH.Cart} className={s.navLink}>
+                    Корзина
+                </Link>
             </nav>
 
 

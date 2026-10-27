@@ -1,0 +1,43 @@
+
+/* Categories */
+.categories {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.categories button {
+  padding: 12px 24px;
+  border: 1px solid #D4C9B8;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  color: #4A4A4A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.categoryBtn {
+  padding: 12px 24px;
+  border: 1px solid #D4C9B8;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  color: #4A4A4A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.categoryBtn:hover {
+  background-color: #D4C9B8;
+  border-color: #D4C9B8;
+}
+
+.categoryBtn.active {
+  background-color: #D4C9B8;
+  border-color: #D4C9B8;
+}

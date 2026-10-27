@@ -1,11 +1,9 @@
-
-
-.container{
+.container {
     max-width: 1300px;
     margin: 0 auto;
 }
 
-header{
+header {
     width: 1300px;
     display: flex;
     justify-content: space-between;
@@ -13,18 +11,17 @@ header{
     padding: 30px 0;
 }
 
-.header_logo{
+.header_logo {
     height: 33px;
     width: 226px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-
-nav a {
+a {
     font-family: 'p';
     font-size: 20px;
     font-weight: 300;
@@ -32,6 +29,3 @@ nav a {
     color: #3E2E09;
     text-decoration: none;
 }
-
-
-
